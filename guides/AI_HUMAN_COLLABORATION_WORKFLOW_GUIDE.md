@@ -219,11 +219,11 @@ multiple instances.
 
 ```yaml
 Clear Specifications Enable:
-  - AI to generate correct implementation first time
-  - Reduced back-and-forth iterations
-  - Better test coverage (clear success criteria)
-  - Easier validation and QA
-  - Documentation from the start
+  • AI to generate correct implementation first time
+  • Reduced back-and-forth iterations
+  • Better test coverage (clear success criteria)
+  • Easier validation and QA
+  • Documentation from the start
 ```
 
 ---
@@ -282,27 +282,27 @@ AI: "Sliding window is excellent for accuracy. Here's the trade-off analysis:
     
   For your requirements (99.99% accuracy), sliding window is correct.
   Implementation approach:
-  - Redis sorted sets for timestamp storage
-  - Lua scripts for atomic operations
-  - TTL for automatic cleanup"
+  • Redis sorted sets for timestamp storage
+  • Lua scripts for atomic operations
+  • TTL for automatic cleanup"
 
 Human: "Makes sense. What about race conditions?"
 
 AI: "Good catch. Race conditions addressed through:
-  - Lua scripts for atomicity
-  - WATCH/MULTI/EXEC for complex operations
-  - Optimistic locking pattern
-  - Idempotent operations where possible"
+  • Lua scripts for atomicity
+  • WATCH/MULTI/EXEC for complex operations
+  • Optimistic locking pattern
+  • Idempotent operations where possible"
 
 ### Desktop Review Benefits
 
 ```yaml
 Value Delivered:
-  - Prevents wrong implementation paths
-  - Identifies issues before coding
-  - Documents decision rationale
-  - Builds shared understanding
-  - Reduces rework by 80%+
+  • Prevents wrong implementation paths
+  • Identifies issues before coding
+  • Documents decision rationale
+  • Builds shared understanding
+  • Reduces rework by 80%+
 ```
 
 ---
@@ -401,12 +401,12 @@ class RateLimiter:
 
 ```yaml
 Why TDD + AI Works:
-  - AI never skips writing tests
-  - Comprehensive edge case coverage
-  - Tests document behavior
-  - Refactoring is safe
-  - Regression prevention
-  - 90%+ coverage by default
+  • AI never skips writing tests
+  • Comprehensive edge case coverage
+  • Tests document behavior
+  • Refactoring is safe
+  • Regression prevention
+  • 90%+ coverage by default
 ```
 
 ---
@@ -429,12 +429,12 @@ Quality Checks (All Automated):
 
 ```yaml
 Enforced Standards:
-  - Test Coverage: >90%
-  - Cyclomatic Complexity: <10
-  - Function Length: <50 lines
-  - Documentation Coverage: 100%
-  - Security Vulnerabilities: 0 critical/high
-  - Performance Regression: <5%
+  • Test Coverage: >90%
+  • Cyclomatic Complexity: <10
+  • Function Length: <50 lines
+  • Documentation Coverage: 100%
+  • Security Vulnerabilities: 0 critical/high
+  • Performance Regression: <5%
 ```
 
 ---
@@ -449,17 +449,17 @@ Team: 2 humans + AI collaboration
 Duration: 6 weeks (vs 6 months traditional)
 
 Results:
-  - 47 microservices built
-  - 94% test coverage average
-  - 0 production incidents in 6 months
-  - 100% API documentation
-  - 60% cost reduction
+  • 47 microservices built
+  • 94% test coverage average
+  • 0 production incidents in 6 months
+  • 100% API documentation
+  • 60% cost reduction
 
 Key Success Factors:
-  - SPECS defined upfront
-  - Desktop review for each service
-  - TDD strictly enforced
-  - Automated quality gates
+  • SPECS defined upfront
+  • Desktop review for each service
+  • TDD strictly enforced
+  • Automated quality gates
 ```
 
 ### Case Study 2: Real-time Analytics System
@@ -476,11 +476,11 @@ Timeline:
   Week 4: Production deployment
 
 Results:
-  - Handles 150K events/second
-  - 50ms p99 latency
-  - Self-healing capabilities
-  - Comprehensive monitoring
-  - Total cost: $40K (vs $400K quote)
+  • Handles 150K events/second
+  • 50ms p99 latency
+  • Self-healing capabilities
+  • Comprehensive monitoring
+  • Total cost: $40K (vs $400K quote)
 ```
 
 ### Our Session Results
@@ -512,12 +512,12 @@ Example from Our Session:
   Human: "We need audit logging for compliance"
   
   AI Understood:
-  - Regulatory requirements (SOX, HIPAA)
-  - Retention policies needed
-  - Immutability requirements
-  - Query patterns for auditors
-  - Performance implications
-  - Cost considerations
+  • Regulatory requirements (SOX, HIPAA)
+  • Retention policies needed
+  • Immutability requirements
+  • Query patterns for auditors
+  • Performance implications
+  • Cost considerations
 ```
 
 ### "AI-Generated Code is Low Quality"
@@ -543,20 +543,20 @@ Metrics Comparison:
 
 ```yaml
 Human Still Essential For:
-  - Business understanding
-  - Architecture decisions
-  - Quality judgment
-  - Edge case identification
-  - Stakeholder communication
-  - Creative problem solving
+  • Business understanding
+  • Architecture decisions
+  • Quality judgment
+  • Edge case identification
+  • Stakeholder communication
+  • Creative problem solving
   
 AI Handles:
-  - Implementation details
-  - Test generation
-  - Documentation
-  - Refactoring
-  - Pattern application
-  - Syntax correctness
+  • Implementation details
+  • Test generation
+  • Documentation
+  • Refactoring
+  • Pattern application
+  • Syntax correctness
 ```
 
 ### "It Only Works for Simple Code"
@@ -565,12 +565,12 @@ AI Handles:
 
 ```yaml
 Complex Systems Built:
-  - Distributed rate limiters
-  - Real-time analytics pipelines
-  - Service mesh implementations
-  - Event-driven architectures
-  - ML model serving platforms
-  - Multi-region data replication
+  • Distributed rate limiters
+  • Real-time analytics pipelines
+  • Service mesh implementations
+  • Event-driven architectures
+  • ML model serving platforms
+  • Multi-region data replication
 ```
 
 ---
@@ -581,48 +581,48 @@ Complex Systems Built:
 
 ```yaml
 ✅ DO:
-  - Write comprehensive SPECS first
-  - Conduct thorough desktop reviews
-  - Enforce TDD without exceptions
-  - Automate all quality checks
-  - Document decisions and rationale
-  - Maintain feedback loops
-  - Trust but verify
+  • Write comprehensive SPECS first
+  • Conduct thorough desktop reviews
+  • Enforce TDD without exceptions
+  • Automate all quality checks
+  • Document decisions and rationale
+  • Maintain feedback loops
+  • Trust but verify
   
 ✅ Human Focus Areas:
-  - Strategic thinking
-  - Business logic validation
-  - Edge case identification
-  - Quality judgment
-  - Stakeholder communication
+  • Strategic thinking
+  • Business logic validation
+  • Edge case identification
+  • Quality judgment
+  • Stakeholder communication
   
 ✅ AI Focus Areas:
-  - Implementation details
-  - Test generation
-  - Documentation creation
-  - Pattern application
-  - Refactoring operations
+  • Implementation details
+  • Test generation
+  • Documentation creation
+  • Pattern application
+  • Refactoring operations
 ```
 
 ### Anti-Patterns
 
 ```yaml
 ❌ AVOID:
-  - Skipping SPECS phase
-  - Bypassing desktop review
-  - Writing code before tests
-  - Manual quality checks
-  - Undocumented decisions
-  - Working in isolation
-  - Blind trust in output
+  • Skipping SPECS phase
+  • Bypassing desktop review
+  • Writing code before tests
+  • Manual quality checks
+  • Undocumented decisions
+  • Working in isolation
+  • Blind trust in output
   
 ❌ Common Mistakes:
-  - Treating AI as just autocomplete
-  - Not providing enough context
-  - Skipping validation steps
-  - Ignoring edge cases
-  - Poor SPECS definition
-  - No feedback loop
+  • Treating AI as just autocomplete
+  • Not providing enough context
+  • Skipping validation steps
+  • Ignoring edge cases
+  • Poor SPECS definition
+  • No feedback loop
 ```
 
 ---
@@ -632,57 +632,57 @@ Complex Systems Built:
 ### Week 1: Foundation
 ```yaml
 Tasks:
-  - Set up AI collaboration tools
-  - Define SPECS template
-  - Establish TDD workflow
-  - Create quality gates
+  • Set up AI collaboration tools
+  • Define SPECS template
+  • Establish TDD workflow
+  • Create quality gates
   
 Deliverables:
-  - Environment ready
-  - First SPECS document
-  - Sample TDD implementation
+  • Environment ready
+  • First SPECS document
+  • Sample TDD implementation
 ```
 
 ### Week 2: Pilot Project
 ```yaml
 Tasks:
-  - Select pilot project
-  - Write comprehensive SPECS
-  - Conduct desktop review
-  - Build with TDD
+  • Select pilot project
+  • Write comprehensive SPECS
+  • Conduct desktop review
+  • Build with TDD
   
 Deliverables:
-  - Working pilot application
-  - Test coverage >90%
-  - Full documentation
+  • Working pilot application
+  • Test coverage >90%
+  • Full documentation
 ```
 
 ### Week 3: Scale
 ```yaml
 Tasks:
-  - Apply to larger project
-  - Refine process
-  - Measure metrics
-  - Gather feedback
+  • Apply to larger project
+  • Refine process
+  • Measure metrics
+  • Gather feedback
   
 Deliverables:
-  - Production application
-  - Process improvements
-  - Metrics dashboard
+  • Production application
+  • Process improvements
+  • Metrics dashboard
 ```
 
 ### Week 4: Institutionalize
 ```yaml
 Tasks:
-  - Document best practices
-  - Train team members
-  - Establish governance
-  - Create templates
+  • Document best practices
+  • Train team members
+  • Establish governance
+  • Create templates
   
 Deliverables:
-  - Team playbook
-  - Training materials
-  - Success metrics
+  • Team playbook
+  • Training materials
+  • Success metrics
 ```
 
 ---
@@ -693,22 +693,22 @@ Deliverables:
 
 ```yaml
 Productivity Metrics:
-  - Time to Market: -60%
-  - Lines of Code/Day: +300%
-  - Documentation Coverage: +75%
-  - Test Coverage: +50%
+  • Time to Market: -60%
+  • Lines of Code/Day: +300%
+  • Documentation Coverage: +75%
+  • Test Coverage: +50%
   
 Quality Metrics:
-  - Bug Density: -75%
-  - Production Incidents: -80%
-  - Code Review Findings: -70%
-  - Technical Debt: -60%
+  • Bug Density: -75%
+  • Production Incidents: -80%
+  • Code Review Findings: -70%
+  • Technical Debt: -60%
   
 Team Metrics:
-  - Developer Satisfaction: +40%
-  - Cognitive Load: -50%
-  - Context Switching: -70%
-  - Learning Velocity: +200%
+  • Developer Satisfaction: +40%
+  • Cognitive Load: -50%
+  • Context Switching: -70%
+  • Learning Velocity: +200%
 ```
 
 ### ROI Calculation
@@ -741,19 +741,19 @@ Example ROI (Medium-sized Project):
 
 ```yaml
 Current State (2024):
-  - Early adopters seeing 3-5x productivity
-  - Quality improvements measurable
-  - Some resistance from traditionalists
+  • Early adopters seeing 3-5x productivity
+  • Quality improvements measurable
+  • Some resistance from traditionalists
   
 Near Future (2025-2026):
-  - Mainstream adoption
-  - Industry best practice
-  - Educational curriculum update
+  • Mainstream adoption
+  • Industry best practice
+  • Educational curriculum update
   
 Future State (2027+):
-  - Default development method
-  - New roles and specializations
-  - Focus on architecture and strategy
+  • Default development method
+  • New roles and specializations
+  • Focus on architecture and strategy
 ```
 
 ### Preparing Your Team
