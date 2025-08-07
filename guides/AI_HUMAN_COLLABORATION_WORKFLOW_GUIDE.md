@@ -64,18 +64,18 @@ graph LR
 
 ```yaml
 Human Brain Optimized For:
-  - Strategic thinking
-  - Pattern recognition
-  - Business logic validation
-  - Edge case identification
-  - Quality judgment
+  • Strategic thinking
+  • Pattern recognition
+  • Business logic validation
+  • Edge case identification
+  • Quality judgment
 
 AI Optimized For:
-  - Syntax correctness
-  - Pattern implementation
-  - Comprehensive documentation
-  - Test generation
-  - Refactoring operations
+  • Syntax correctness
+  • Pattern implementation
+  • Comprehensive documentation
+  • Test generation
+  • Refactoring operations
 ```
 
 ### The Complementary Intelligence Model
@@ -86,35 +86,35 @@ Human Strengths + AI Strengths = Superior Outcomes
 Examples:
   Human: "We need audit logging for compliance"
   AI: Implements complete audit system with:
-    - Structured logging
-    - Retention policies
-    - Query interfaces
-    - Compliance mappings
-    - Test coverage
+    • Structured logging
+    • Retention policies
+    • Query interfaces
+    • Compliance mappings
+    • Test coverage
   
   Human: "This should handle 10K requests/second"
   AI: Implements with:
-    - Connection pooling
-    - Caching layers
-    - Async processing
-    - Load balancing considerations
-    - Performance tests
+    • Connection pooling
+    • Caching layers
+    • Async processing
+    • Load balancing considerations
+    • Performance tests
 ```
 
 ### Quality Metrics from Real Projects
 
 ```yaml
 Traditional Development:
-  - Bug density: 15-50 bugs per KLOC
-  - Test coverage: 40-60% average
-  - Documentation: 20% complete
-  - Time to market: 100% baseline
+  • Bug density: 15-50 bugs per KLOC
+  • Test coverage: 40-60% average
+  • Documentation: 20% complete
+  • Time to market: 100% baseline
 
 Vibe Coding Results:
-  - Bug density: 2-5 bugs per KLOC (75% reduction)
-  - Test coverage: 85-95% (TDD enforced)
-  - Documentation: 95% complete
-  - Time to market: 40% of baseline (60% faster)
+  • Bug density: 2-5 bugs per KLOC (75% reduction)
+  • Test coverage: 85-95% (TDD enforced)
+  • Documentation: 95% complete
+  • Time to market: 40% of baseline (60% faster)
 ```
 
 ---
@@ -136,34 +136,34 @@ graph TD
 
 ```yaml
 1. SPECS (Specification):
-   - Define WHAT and WHY
-   - Capture requirements
-   - Document constraints
-   - Set success criteria
+   • Define WHAT and WHY
+   • Capture requirements
+   • Document constraints
+   • Set success criteria
 
 2. DESKTOP REVIEW:
-   - Validate approach
-   - Align on architecture
-   - Identify edge cases
-   - Confirm patterns
+   • Validate approach
+   • Align on architecture
+   • Identify edge cases
+   • Confirm patterns
 
 3. TDD BUILD:
-   - Write test first
-   - Implement to pass
-   - Refactor for quality
-   - Maintain coverage
+   • Write test first
+   • Implement to pass
+   • Refactor for quality
+   • Maintain coverage
 
 4. QUALITY ASSURANCE:
-   - Automated testing
-   - Code review
-   - Performance validation
-   - Security scanning
+   • Automated testing
+   • Code review
+   • Performance validation
+   • Security scanning
 
 5. DEPLOYMENT:
-   - CI/CD pipeline
-   - Monitoring setup
-   - Documentation publishing
-   - Knowledge transfer
+   • CI/CD pipeline
+   • Monitoring setup
+   • Documentation publishing
+   • Knowledge transfer
 ```
 
 ---
