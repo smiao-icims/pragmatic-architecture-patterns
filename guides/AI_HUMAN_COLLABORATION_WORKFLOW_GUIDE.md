@@ -134,36 +134,36 @@ graph TD
 
 ### Phase Overview
 
-```yaml
-1. SPECS (Specification):
-   • Define WHAT and WHY
-   • Capture requirements
-   • Document constraints
-   • Set success criteria
+```
+Phase 1: SPECS (Specification)
+  • Define WHAT and WHY
+  • Capture requirements
+  • Document constraints
+  • Set success criteria
 
-2. DESKTOP REVIEW:
-   • Validate approach
-   • Align on architecture
-   • Identify edge cases
-   • Confirm patterns
+Phase 2: DESKTOP REVIEW
+  • Validate approach
+  • Align on architecture
+  • Identify edge cases
+  • Confirm patterns
 
-3. TDD BUILD:
-   • Write test first
-   • Implement to pass
-   • Refactor for quality
-   • Maintain coverage
+Phase 3: TDD BUILD
+  • Write test first
+  • Implement to pass
+  • Refactor for quality
+  • Maintain coverage
 
-4. QUALITY ASSURANCE:
-   • Automated testing
-   • Code review
-   • Performance validation
-   • Security scanning
+Phase 4: QUALITY ASSURANCE
+  • Automated testing
+  • Code review
+  • Performance validation
+  • Security scanning
 
-5. DEPLOYMENT:
-   • CI/CD pipeline
-   • Monitoring setup
-   • Documentation publishing
-   • Knowledge transfer
+Phase 5: DEPLOYMENT
+  • CI/CD pipeline
+  • Monitoring setup
+  • Documentation publishing
+  • Knowledge transfer
 ```
 
 ---
@@ -234,31 +234,32 @@ Clear Specifications Enable:
 
 Desktop review is where human expertise meets AI capability. This critical phase ensures alignment before any code is written.
 
-```yaml
+```
 Desktop Review Components:
-  1. Architecture Review
-     - System design validation
-     - Pattern selection
-     - Technology choices
-     - Integration points
 
-  2. Implementation Approach
-     - Algorithm selection
-     - Data structures
-     - Performance considerations
-     - Error handling strategy
+Architecture Review:
+  • System design validation
+  • Pattern selection
+  • Technology choices
+  • Integration points
 
-  3. Edge Case Identification
-     - Failure scenarios
-     - Boundary conditions
-     - Race conditions
-     - Security concerns
+Implementation Approach:
+  • Algorithm selection
+  • Data structures
+  • Performance considerations
+  • Error handling strategy
 
-  4. Decision Documentation
-     - Rationale for choices
-     - Trade-offs accepted
-     - Future considerations
-     - Migration paths
+Edge Case Identification:
+  • Failure scenarios
+  • Boundary conditions
+  • Race conditions
+  • Security concerns
+
+Decision Documentation:
+  • Rationale for choices
+  • Trade-offs accepted
+  • Future considerations
+  • Migration paths
 ```
 
 ### Desktop Review Example
@@ -313,14 +314,14 @@ Value Delivered:
 
 TDD is non-negotiable in vibe coding. The AI excels at generating comprehensive tests:
 
-```yaml
+```
 TDD Workflow:
-  1. Human specifies behavior
-  2. AI writes failing test
-  3. AI implements minimal code to pass
-  4. AI refactors for quality
-  5. Human validates approach
-  6. Repeat for next behavior
+  Step 1: Human specifies behavior
+  Step 2: AI writes failing test
+  Step 3: AI implements minimal code to pass
+  Step 4: AI refactors for quality
+  Step 5: Human validates approach
+  Step 6: Repeat for next behavior
 ```
 
 ### TDD Example: Rate Limiter
@@ -415,14 +416,14 @@ Why TDD + AI Works:
 
 ### Automated Quality Gates
 
-```yaml
+```
 Quality Checks (All Automated):
-  1. Unit Tests: 95%+ coverage required
-  2. Integration Tests: API contracts validated
-  3. Performance Tests: Latency/throughput targets
-  4. Security Scanning: SAST/DAST/dependency checks
-  5. Code Quality: Linting, complexity metrics
-  6. Documentation: API docs, README, inline comments
+  • Unit Tests: 95%+ coverage required
+  • Integration Tests: API contracts validated
+  • Performance Tests: Latency/throughput targets
+  • Security Scanning: SAST/DAST/dependency checks
+  • Code Quality: Linting, complexity metrics
+  • Documentation: API docs, README, inline comments
 ```
 
 ### Quality Metrics Enforcement
@@ -758,15 +759,15 @@ Future State (2027+):
 
 ### Preparing Your Team
 
-```yaml
+```
 Steps to Adoption:
-  1. Start with pilot project
-  2. Measure and share results
-  3. Address concerns openly
-  4. Provide training and support
-  5. Iterate and improve
-  6. Scale gradually
-  7. Celebrate successes
+  • Start with pilot project
+  • Measure and share results
+  • Address concerns openly
+  • Provide training and support
+  • Iterate and improve
+  • Scale gradually
+  • Celebrate successes
 ```
 
 ---
