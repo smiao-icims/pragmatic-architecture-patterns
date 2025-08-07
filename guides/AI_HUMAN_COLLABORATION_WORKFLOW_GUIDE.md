@@ -125,10 +125,10 @@ Vibe Coding Results:
 
 ```mermaid
 graph TD
-    A[1. SPECS] --> B[2. DESKTOP REVIEW]
-    B --> C[3. TDD BUILD]
-    C --> D[4. QUALITY ASSURANCE]
-    D --> E[5. DEPLOYMENT]
+    A[SPECS] --> B[DESKTOP REVIEW]
+    B --> C[TDD BUILD]
+    C --> D[QUALITY ASSURANCE]
+    D --> E[DEPLOYMENT]
     E -->|Feedback| A
 ```
 
