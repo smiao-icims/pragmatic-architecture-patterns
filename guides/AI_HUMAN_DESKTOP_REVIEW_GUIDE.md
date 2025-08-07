@@ -402,7 +402,7 @@ graph TD
     A[Identify Problem/Need] --> B[Provide Initial Context]
     B --> C[AI Creates Initial Solution]
     C --> D{Human Reviews}
-    D -->|Needs Clarification| E[Ask "Question to Clarify"]
+    D -->|Needs Clarification| E[Ask Question to Clarify]
     D -->|Needs More Depth| F[Provide Additional Context]
     D -->|Good Direction| G[Confirm and Request Enhancement]
     E --> C
