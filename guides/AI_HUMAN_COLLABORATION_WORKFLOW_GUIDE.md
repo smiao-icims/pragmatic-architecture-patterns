@@ -53,7 +53,7 @@ graph LR
     C --> D[AI Refinement]
     D --> E[Production Software]
     E --> F[Continuous Improvement]
-    F --> A
+    F -->|Feedback| A
 ```
 
 ---
@@ -129,8 +129,7 @@ graph TD
     B --> C[3. TDD BUILD]
     C --> D[4. QUALITY ASSURANCE]
     D --> E[5. DEPLOYMENT]
-    E --> F[Feedback Loop]
-    F --> A
+    E -->|Feedback| A
 ```
 
 ### Phase Overview
